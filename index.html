@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<style>
+    #graph{
+        height: 500px;
+        width: 500px;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script	src="https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.js"></script>
+<script src="index.js"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <label>ОТ:</label>
+            </td>
+            <td>
+                <input class="from">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label >ДО:</label>
+            </td>
+            <td>
+                <input class="to">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Функция:</label>
+            </td>
+            <td>
+                <input class="fun">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button class="output">Построить</button>
+            </td>
+        </tr>
+    </table>
+    <div id="graph">
+
+    </div>
+</body>
+</html>
